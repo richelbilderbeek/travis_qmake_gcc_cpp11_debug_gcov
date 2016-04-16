@@ -14,9 +14,8 @@ script:
   - ./build_debug.sh
   - ./travis_qmake_gcc_cpp11_gcov_gcov
   - ./get_code_cov.sh
+  - codecov
   - ./clean.sh
   - ./build_release.sh
   - ./travis_qmake_gcc_cpp11_gcov
 
-after_success: 
-  - codecov
