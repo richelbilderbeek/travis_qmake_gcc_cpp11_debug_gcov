@@ -12,10 +12,10 @@ install:
 
 script: 
   - ./build_debug.sh
-  - ./travis_qmake_gcc_cpp11_gcov_gcov
+  - ./travis_qmake_gcc_cpp11_debug_gcov_gcov
   - ./get_code_cov.sh
   - codecov
   - ./clean.sh
   - ./build_release.sh
-  - ./travis_qmake_gcc_cpp11_gcov
+  - ./travis_qmake_gcc_cpp11_debug_gcov
 
