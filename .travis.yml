@@ -1,5 +1,6 @@
-sudo: true
 language: cpp
+dist: xenial
+sudo: true
 compiler: gcc
 
 before_install:
